@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: black;
+}
+
+.nav-name {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: black;
+  font-size: 24px;
+}
+
+nav {
+  display: flex;
+  width: 84%;
+  margin: auto;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  position: relative;
+  z-index: 999;
+  text-decoration: none;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+nav ul li a:hover {
+  color: #ffbd39;
+  text-decoration: underline;
+}
+
+.home {
+  margin-left: 8%;
+  margin-top: 7%;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: extra-bold;
+}
+
+.hello {
+  color: #ffbd39;
+  font-family: poppins;
+  font-weight: semi-bold;
+  font-size: 25px;
+}
+
+.home-name {
+  color: #ffbd39;
+}
+
+.home h1 {
+  font-size: 50px;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 60px;
+}
+
+.home p {
+  line-height: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.home a {
+  background-color: white;
+  padding: 10px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
+}
+
+.images {
+  width: 45%;
+  height: 90%;
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+}
+
+.images img {
+  /* height: 100%; */
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+.profile {
+  height: 120%;
+}
+
+.shapes {
+  width: 65%;
+  height: 65%;
+  margin-bottom: 70px;
+}
+
+footer {
+  margin-top: 3%;
+  color: #ffbd39;
+  margin-left: 8%;
+  position: absolute;
+}
+
+.social {
+  display: flex;
+  gap: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffbd39;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
